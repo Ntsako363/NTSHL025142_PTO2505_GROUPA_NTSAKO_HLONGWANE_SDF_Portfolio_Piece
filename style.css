@@ -190,3 +190,4 @@ body{
   .row.edu-tools{grid-template-columns:1fr}
   .education .edu-item{grid-template-columns:1fr}
   .projects .project-grid{grid-template-columns:1fr}
+}
