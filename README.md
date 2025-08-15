@@ -8,7 +8,7 @@ This is not just practice — this is something you can proudly include in your 
 
 ## 📌 Project Overview
 
-**Project Name:** Resume Project  
+**Project Name:** PORTFOLIO PIECE  
 **Difficulty:** Beginner–Intermediate  
 **Goal:** Replicate a Figma design of a resume site as accurately as possible using HTML and CSS  
 **Tools Required:** HTML5, CSS3, Git, GitHub  

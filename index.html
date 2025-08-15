@@ -2,295 +2,309 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ntsako Hlongwane – Resume</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
   </head>
+
   <body>
-    <div class="resume"></div>
-    <aside class="sidebar">
-      <figure class="profile-picture">
-        <img
-          src="image/Ntsako.jpg"
-          alt="Ntsako Hlongwane"
-          class="profile-img"
-        />
-      </figure>
-      <div id="container">
-        <div class="bio">
-          <h1>Ntsako Hlongwane</h1>
-          <section>
-            <p class="bio-description">
-              I am a passionate and dedicated software developer with a strong
-              foundation in JavaScript and React. With hands-on experience in
-              building dynamic and responsive web applications, I excel at
-              transforming complex requirements into intuitive user interfaces.
-            </p>
-          </section>
+    <div class="page">
+
+      <!-- HERO: photo + bio -->
+      <section class="card hero">
+        <figure class="hero-photo">
+          <img src="image/Ntsako.jpg" alt="Ntsako Hlongwane"/>
+        </figure>
+        <div class="hero-bio">
+          <h1 class="name">Ntsako Hlongwane</h1>
+          <p class="lead">
+            I am a passionate and dedicated software developer with a strong foundation in JavaScript and React.
+            With hands-on experience in building dynamic and responsive web applications, I excel at transforming complex
+            requirements into intuitive user interfaces.
+          </p>
         </div>
-      </div>
-    </aside>
-    <section class="main">
-      <div id="flex-box">
-        <article>
-          <div class="container-proficiency">
-            <h2>Proficiency</h2>
-            <h3>Beginner</h3>
-            <p>HTML</p>
-            <div class="progress-bar"><span class="skill html">90%</span></div>
-            <p>CSS</p>
-            <div class="progress-bar"><span class="skill css">80%</span></div>
-            <p>Tailwind</p>
-            <div class="progress-bar">
-              <span class="skill tailwind">70%</span>
-            </div>
-            <p>JavaScript</p>
-            <div class="progress-bar">
-              <span class="skill javascript">20%</span>
-            </div>
-            <p>React</p>
-            <div class="progress-bar"><span class="skill react">5%</span></div>
+      </section>
+
+      <!-- ROW: Proficiency + Skills -->
+      <section class="row two-col">
+        <!-- Proficiency -->
+        <article class="card proficiency">
+          <h2 class="section-title">Proficiency</h2>
+
+          <div class="levels">
+            <span class="lvl">Beginner</span>
+            <span class="lvl mid">Intermediate</span>
+            <span class="lvl adv">Advance*</span>
+          </div>
+
+          <div class="bar">
+            <div class="bar-meta"><span>JavaScript</span></div>
+            <div class="track"><i style="width:86%"></i></div>
+          </div>
+
+          <div class="bar">
+            <div class="bar-meta"><span>React</span></div>
+            <div class="track"><i style="width:62%"></i></div>
+          </div>
+
+          <div class="bar">
+            <div class="bar-meta"><span>Node.js</span></div>
+            <div class="track"><i style="width:48%"></i></div>
+          </div>
+
+          <div class="bar">
+            <div class="bar-meta"><span>HTML + CSS</span></div>
+            <div class="track"><i style="width:40%"></i></div>
           </div>
         </article>
-        <article class="container-skills">
-          <h2>Skills</h2>
-          <ul class="list of Skills">
-            <li>Responsive design</li>
+
+        <!-- Skills -->
+        <article class="card skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="chips">
+            <li>Software Development</li>
             <li>Agile</li>
-            <li>Web development</li>
-            <li>Adaptability</li>
-            <li>Time Management</li>
-            <li>Attention to Detail</li>
-            <li>Problem-solving</li>
-            <li>Team collaboration</li>
-            <li>Git and version control</li>
+            <li>UI Design</li>
+            <li>Problem Solving</li>
+            <li>Git And Version Control</li>
+            <li>Web Development</li>
+            <li>Team Collaboration</li>
+            <li>Functional Programming</li>
+            <li>RESTful APIs</li>
           </ul>
         </article>
-      </div>
-    </section>
-    <section>
-      <div class="projects">
-        <h2>Projects</h2>
-        <div class="project-grid"></div>
-        <article class="projects">
-          <h3>2025</h3>
-          <h3>Portfolio website</h3>
-          <p><strong>Brief</strong> personal project to showcase my skills</p>
-          <p><strong>Technologies Used:</strong> HTML, CSS</p>
-          <p>
-            <strong>Responsibility:</strong> Designed a website from a given
-            template, implemented and ensuring responsiveness and accessibility
-          </p>
-        </article>
-        <article class="projects">
-          <h3>2025</h3>
-          <h3>Podcast app</h3>
-          <p>
-            <strong>Brief:</strong> Developed a podcast application that allows
-            users to search, subscribe, and listen to various podcasts
-          </p>
-          <p>
-            <strong>Technologies Used:</strong> React,Tailwind HTML, CSS,
-            JavaScript
-          </p>
-          <p>
-            <strong>Responsibility:</strong> Implemented search functionality,
-            an audio player with playback controls and integrated backend API
-            for fetching podcast data.
-          </p>
-        </article>
-        <article class="projects">
-          <h3>2025</h3>
-          <h3>Agile board</h3>
-          <p>
-            <strong>Brief:</strong> Developed an agile board application that
-            allows users to manage tasks and projects efficiently.
-          </p>
-          <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
-          <p>
-            <strong>Responsibility:</strong> Designed a user-friendly interface,
-            implemented drag-and-drop functionality, and ensured seamless user
-            experience.
-          </p>
-        </article>
-        <article class="projects">
-          <h3>2025</h3>
-          <h3>Super cool project</h3>
-          <p>
-            <strong>Brief:</strong> Developed a incredible application that
-            allows users to do amazing things.
-          </p>
-          <p>
-            <strong>Technologies Used:</strong> HTML,Tailwind, CSS, JavaScript
-          </p>
-          <p>
-            <strong>Responsibility:</strong> mplemented complex functions, a
-            user-friendly user interface, and responsive design. Built our
-            additional features specific to the clients needs.
-          </p>
-        </article>
-      </div>
-    </section>
-    <section>
-      <div class="Education">
-        <h2>Education</h2>
-        <article class="education">
-          <h4>Aug. 2025- Mar. 2026</h4>
-          <h3>CodeSpace Academy</h3>
-          <p>Software Development</p>
-          <p>Full-time</p>
-        </article>
-        <article class="container-skills">
+      </section>
+
+      <!-- Projects -->
+      <section class="card projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+
+          <article class="project">
+            <span class="heart">❤</span>
+            <h4 class="year">2025</h4>
+            <h3 class="title">Portfolio Website</h3>
+
+            <p class="label">Brief</p>
+            <p class="small">
+              Developed a personal portfolio website to showcase projects and skills.
+            </p>
+
+            <p class="label">Technologies:</p>
+            <p class="small">React, JavaScript, HTML, CSS</p>
+
+            <p class="label">Responsibilities:</p>
+            <p class="small">
+              Designed and implemented the website, ensured responsiveness and accessibility.
+            </p>
+          </article>
+
+          <article class="project">
+            <span class="heart">❤</span>
+            <h4 class="year">2025</h4>
+            <h3 class="title">Podcast App</h3>
+
+            <p class="label">Brief</p>
+            <p class="small">
+              Developed a podcast application that allows users to search, subscribe, and listen to various podcasts.
+            </p>
+
+            <p class="label">Technologies:</p>
+            <p class="small">React, Tailwind, HTML, CSS</p>
+
+            <p class="label">Responsibilities:</p>
+            <p class="small">
+              Implemented search functionality, an audio player with playback controls and integrated backend API for
+              fetching podcast data.
+            </p>
+          </article>
+
+          <article class="project">
+            <span class="heart">❤</span>
+            <h4 class="year">2025</h4>
+            <h3 class="title">Agile Board</h3>
+
+            <p class="label">Brief</p>
+            <p class="small">
+              Created a task management tool for organizing and tracking tasks.
+            </p>
+
+            <p class="label">Technologies:</p>
+            <p class="small">JavaScript, HTML, CSS</p>
+
+            <p class="label">Responsibilities:</p>
+            <p class="small">
+              Developed real-time data synchronization, user interface, and user authentication.
+              Implemented data persistence in localStorage.
+            </p>
+          </article>
+
+          <article class="project">
+            <span class="heart">❤</span>
+            <h4 class="year">2026</h4>
+            <h3 class="title">Super Cool Project</h3>
+
+            <p class="label">Brief</p>
+            <p class="small">
+              Developed an incredible application that allows users to do amazing things.
+            </p>
+
+            <p class="label">Technologies:</p>
+            <p class="small">React, Tailwind, HTML, CSS</p>
+
+            <p class="label">Responsibilities:</p>
+            <p class="small">
+              Implemented complex functions, a user-friendly user interface, and responsive design.
+              Built additional features specific to the client’s needs.
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Education + Tools -->
+      <section class="row edu-tools">
+
+        <!-- Education -->
+        <div class="card education">
+          <h2 class="section-title">Education</h2>
+
+          <div class="edu-item">
+            <div class="edu-left">
+              <p class="time">Aug. 2025 – Mar. 2026</p>
+              <h3 class="school">CodeSpace Academy</h3>
+              <p class="small">Software Development</p>
+              <p class="small">Full-time</p>
+            </div>
+            <div class="edu-right green">
+              <ul>
+                <li>Focused on React and JavaScript to build intuitive, dynamic web applications</li>
+                <li>Collaborated with peers on real-world personal projects, refining teamwork and coding best practices</li>
+                <li>Gained hands-on experience with cutting-edge web technologies and development tools</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-left">
+              <p class="time">Feb. 2019 – Dec. 2022</p>
+              <h3 class="school">CPUT</h3>
+              <p class="small">Mechanical Engineering</p>
+              <p class="small">Full-time</p>
+            </div>
+            <div class="edu-right">
+              <ul>
+                <li>Gained a strong foundation in mechanical systems and product design principles</li>
+                <li>Spearheaded end-to-end project development, from concept sketches to prototypes</li>
+                <li>Collaborated with cross-functional teams to refine cutting-edge product solutions</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-left">
+              <p class="time">Jan. 2014 – Dec. 2018</p>
+              <h3 class="school">Hudson Park High</h3>
+              <p class="small">Matric | NQF Level 4</p>
+            </div>
+            <div class="edu-right">
+              <ul>
+                <li>Built core academic skills and developed an early passion for problem-solving</li>
+                <li>Participated in school-wide projects that honed creative and analytical thinking</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools column -->
+        <aside class="tools-col">
+          <div class="card tool-card">
+            <div class="tool-chip">languages</div>
+            <div class="icons">
+              <img src="image/html.svg" alt="HTML">
+              <img src="image/css.svg" alt="CSS">
+              <img src="image/js.svg" alt="JavaScript">
+              <img src="image/react.svg" alt="React">
+              <img src="image/tailwind.svg" alt="Tailwind">
+            </div>
+          </div>
+
+          <div class="card tool-card">
+            <div class="tool-chip">design</div>
+            <div class="icons">
+              <img src="image/microsoft.svg" alt="Microsoft">
+              <img src="image/Figma.svg" alt="Figma">
+              <img src="image/google.svg" alt="Google">
+            </div>
+          </div>
+
+          <div class="card tool-card">
+            <div class="tool-chip">tools</div>
+            <div class="icons">
+              <img src="image/git.svg" alt="Git">
+              <img src="image/github.svg" alt="GitHub">
+              <img src="image/vsc.svg" alt="VS Code">
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Experience -->
+      <section class="card experience">
+        <h2 class="section-title">Experience</h2>
+
+        <article class="job green">
+          <div class="job-top">
+            <div>
+              <p class="time">Aug. 2024 – July. 2025</p>
+              <h3 class="role">Bookstore Clerk</h3>
+              <p class="small">Readers' Haven | Full-time</p>
+            </div>
+            <span class="badge">Most Recent</span>
+          </div>
           <ul>
-            <li>
-              Focused on React and JavaScript to build intuitive, dynamic web
-              applications
-            </li>
-            <li>
-              Collaborated with peers on real-world personal projects, refining
-              teamwork and coding best practices
-            </li>
-            <li>
-              Gained hands-on experience with cutting-edge web technologies and
-              development tools
-            </li>
-          </ul>
-        </article>
-        <article class="education">
-          <h4>Feb. 2019- Dec. 2022</h4>
-          <h3>CPUT</h3>
-          <p>Mechanical Engineering</p>
-          <p>Full-time</p>
-        </article>
-        <article class="container-skills">
-          <ul>
-            <li>
-              Gained a strong foundation in mechanical systems and product
-              design principles
-            </li>
-            <li>
-              Spearheaded end-to-end project development, from concept sketches
-              to prototypes
-            </li>
-            <li>
-              Collaborated with cross-functional teams to refine cutting-edge
-              product solutions
-            </li>
-          </ul>
-        </article>
-        <article class="education">
-          <h4>Jan. 2014- Dec. 2018</h4>
-          <h3>Hudson Park High</h3>
-          <p>Matric|NQF Level 4</p>
-          <p>Full-time</p>
-        </article>
-        <article class="container-skills">
-          <ul>
-            <li>
-              Built core academic skills and developed an early passion for
-              problem-solving
-            </li>
-            <li>
-              Participated in school-wide projects that honed creative and
-              analytical thinking
-            </li>
-          </ul>
-        </article>
-      </div>
-    </section>
-    <section class="Tools">
-      <h2>Tools</h2>
-      <h5>Languages</h5>
-      <img src="image/css.svg" alt="CSS" class="tools" />
-      <img src="image/html.svg" alt="HTML" class="tools" />
-      <img src="image/react.svg" alt="React" class="tools" />
-      <img src="image/js.svg" alt="JavaScript" class="tools" />
-      <img src="image/tailwind.svg" alt="Tailwind CSS" class="tools" />
-    </section>
-    <section class="Design">
-      <h5>Design</h5>
-      <img src="image/microsoft.svg" alt="Microsoft" class="tools" />
-      <img src="image/Figma.svg" alt="Figma" class="tools" />
-      <img src="image/google.svg" alt="Google" class="tools" />
-    </section>
-    <section class="Tools">
-      <h5>Tools</h5>
-      <img src="image/git.svg" alt="Git" class="tools" />
-      <img src="image/github.svg" alt="GitHub" class="tools" />
-      <img src="image/vsc.svg" alt="Visual Studio Code" class="tools" />
-    </section>
-    <section>
-      <div class="Experience">
-        <h2>Experience</h2>
-        <article class="experience">
-          <h4>Aug. 2024- July. 2026</h4>
-          <h3>Bookstore Clerk</h3>
-          <p>Readers Haven|Full time</p>
-        </article>
-        <article class="container-skills">
-          <ul>
-            <li>
-              Organized and shelved new arrivals, ensuring a clean and enticing
-              store layout
-            </li>
-            <li>
-              Assisted customers with personalized book recommendations,
-              boosting sales
-            </li>
-            <li>
-              Handled point-of-sale transactions and updated inventory records
-            </li>
-          </ul>
-        </article>
-        <article class="experience">
-          <h4>Jan. 2023-Jul. 2024</h4>
-          <h3>Sale | Cell Contacts</h3>
-          <p>Tech Solutions| Full-time</p>
-        </article>
-        <article class="container-skills">
-          <ul>
-            <li>
-              Advised customers on the best mobile plans and devices, driving
-              consistent contract sign-ups
-            </li>
-            <li>
-              Handled escalated customer inquiries, maintaining high
-              satisfaction ratings
-            </li>
-            <li>
-              Partnered with team members to meet monthly sales targets and
-              achieve store goals
-            </li>
+            <li>Organized and shelved new arrivals, ensuring a clean and enticing store layout</li>
+            <li>Assisted customers with personalized book recommendations, boosting sales</li>
+            <li>Handled point-of-sale transactions and updated inventory records</li>
           </ul>
         </article>
 
-        <article class="experience">
-          <h4>Feb.2021-Dec.2022</h4>
-          <h3>Waiter</h3>
-          <p>The Bistro House| Part-time</p>
-        </article>
-        <article class="container-skills">
+        <article class="job">
+          <p class="time">Jan. 2023 – Jul. 2024</p>
+          <h3 class="role">Sales | Cell Contacts</h3>
+          <p class="small">Tech Solutions | Full-time</p>
           <ul>
-            <li>
-              Provided excellent customer service in a fast-paced dining
-              environment
-            </li>
-            <li>
-              Collaborated with kitchen staff to ensure timely and accurate
-              order delivery
-            </li>
-            <li>
-              Assisted in training new waitstaff on restaurant protocols and
-              customer service best practices
-            </li>
+            <li>Advised customers on the best mobile plans and devices, driving consistent contract sign-ups</li>
+            <li>Handled escalated customer inquiries, maintaining high satisfaction ratings</li>
+            <li>Partnered with team members to meet monthly sales targets and achieve store goals</li>
           </ul>
         </article>
-      </div>
-    </section>
-    <img
-      src="image/cd23f8b28866d711ecd55f7a1fe9e379146d9d6d.png"
-      alt="background"
-      class="background"
-    />
+
+        <article class="job">
+          <p class="time">Feb. 2021 – Dec. 2022</p>
+          <h3 class="role">Waiter</h3>
+          <p class="small">The Bistro House | Part-time</p>
+          <ul>
+            <li>Delivered attentive table service, promptly addressing guests’ needs and requests</li>
+            <li>Promoted menu specials and upsold items to enhance the dining experience</li>
+            <li>Collaborated with kitchen staff to ensure seamless service and timely meal delivery</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <p>
+          Let’s chat! I’m ready to work on exciting projects.
+          <span class="contact">
+            ntsako@email.com | 072 345 6789 | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+          </span>
+        </p>
+      </section>
+    </div>
   </body>
 </html>
