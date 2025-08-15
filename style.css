@@ -1,1 +1,193 @@
 
+
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #fafafa;
+  color: #262626;
+  padding-bottom: 3rem;
+}
+/* ===== Layout ===== */
+.resume {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 300px;
+  top: 0;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+#flex-box {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* ===== Profile Picture ===== */
+.profile-picture {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 29px;
+  top: 63px;
+  left: 59px;
+}
+
+/* ===== Bio ===== */
+.bio h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bio-description {
+  width: 856px;
+  height: 132px;
+  top: 108.36px;
+  left: 69.34px;
+  align-items: center;
+background-color: #e5e7eb;  
+border-radius: 29px;
+gap: 10px;
+  
+}
+
+
+/* ===== Section Titles ===== */
+h2 {
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  color: #111827;
+}
+
+h3 {
+  margin-top: 0.75rem;
+  color: #374151;
+}
+
+h4 {
+  color: #4b5563;
+}
+
+/* ===== Progress Bars ===== */
+.progress-bar {
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 12px;
+  margin-bottom: 1rem;
+}
+
+.skill {
+  display: block;
+  height: 100%;
+  text-align: right;
+  padding-right: 5px;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 12px;
+}
+
+.skill.html {
+  width: 90%;
+  background-color: green
+}
+.skill.css {
+  width: 80%;
+  background-color:green;
+}
+.skill.tailwind {
+  width: 70%;
+  background-color: green;
+}
+.skill.javascript {
+  width: 20%;
+  background-color: green;
+  color: #000;
+}
+.skill.react {
+  width: 5%;
+  background-color: green;
+  color: #000;
+}
+
+/* ===== Skills List ===== */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* ===== Projects ===== */
+.projects {
+  margin-top: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.projects article {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* ===== Tools Icons ===== */
+.tools {
+  width: 40px;
+  margin: 5px;
+}
+
+/* ===== Education & Experience ===== */
+.education{
+  margin-bottom: 1rem;
+}
+
+.container-skills{
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .resume {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+    position: relative;
+  }
+
+  #flex-box {
+    flex-direction: column;
+  }
+}
+.background {
+  background-image: url("image/cd23f8b28866d711ecd55f7a1fe9e379146d9d6d.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
